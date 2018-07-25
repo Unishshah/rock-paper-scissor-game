@@ -1,0 +1,89 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background: #262626;
+    //background: red;
+}
+.header
+{
+     font-weight: bold;
+    text-align: center;
+    background: white;
+    padding: 7px;
+}
+
+.badge
+{
+    background: #ff3333;
+    font-family: sans-serif;
+    font-size: 15px;
+    color: white;
+    padding: 2px 10px;
+}
+
+.score
+{
+    font-weight: bold;
+    text-align: center;
+    padding-bottom: 7px;
+    color: white;
+    border: 3px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    margin: 15px auto;
+    width: 200px;
+    font-family: sans-serif;
+    position: relative;
+}
+
+.result
+{
+    font-weight: bold;
+    font-size: 40px;
+    text-align: center;
+    padding: 5px;
+    color: white;
+}
+
+.pos
+{
+    text-align: center;
+    margin-top: 5px;
+}
+
+.images
+{
+    display: inline-block;
+    border: 4px solid white;
+    margin: auto 7px;
+}
+
+.moves
+{
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+
+#userlabel
+{
+    position: absolute;
+    top:10px;
+    left:-30px;
+    width: 60px;
+
+}
+
+#complabel
+{
+    position: absolute;
+    top:10px;
+    right:-30px;
+    width: 60px;
+}
